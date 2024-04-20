@@ -3,7 +3,9 @@
 
     docker ps -a
 
-2.  docker exec -it `CONTAINER ID` bash
+2.  docker start `CONTAINER ID`
+
+    docker exec -it `CONTAINER ID` bash
     
     redis-cli ping
 
@@ -29,3 +31,14 @@
     decr count
 
     decrby count 3
+
+### Lists
+1.  lpush hey
+
+    lpush hello
+
+    rpush messages bye
+
+    llen messages
+
+    lrange messages 0 -1
