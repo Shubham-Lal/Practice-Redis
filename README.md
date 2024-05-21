@@ -42,3 +42,6 @@
     llen messages
 
     lrange messages 0 -1
+
+### Hashes
+1.  hset bike:1 model Deimos brand Ergonom type 'Enduro bikes' price 4972
